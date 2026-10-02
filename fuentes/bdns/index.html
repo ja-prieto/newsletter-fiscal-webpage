@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Base de Datos Nacional de Subvenciones · Boletín fiscal</title>
+<meta name="description" content="Síntesis diaria de la información fiscal publicada por las fuentes oficiales españolas.">
+<style>
+  :root {
+    --acento: #993300;
+    --acento-oscuro: #752700;
+    --tinta: #161616;
+    --tinta-media: #3d3d3d;
+    --tinta-suave: #5f5f5f;
+    --regla: #dadada;
+    --regla-suave: #ebebeb;
+    --papel: #ffffff;
+    --fondo: #f7f7f7;
+    --calido: #f5ebe6;
+    --sans: Roboto, 'Segoe UI', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  }
+</style>
+<link rel="stylesheet" href="../../static/estilo.css">
+</head>
+<body>
+<header class="cabecera">
+  <div class="franja">
+    <div class="contenedor franja__dentro">
+      <span>La política fiscal del Estado, cada mañana, desde sus fuentes oficiales</span>
+      <a class="franja__alta" href="mailto:newsletter.fiscal@gmail.com?subject=Alta%20en%20el%20bolet%C3%ADn%20fiscal">Suscríbete</a>
+    </div>
+  </div>
+  <div class="contenedor marca">
+    <a class="marca__nombre" href="../../index.html">Boletín fiscal</a>
+    <div class="marca__firma">
+      <img class="marca__logo" src="../../static/logo_departamento.svg" alt="Departamento de Análisis de la Economía Española" width="309" height="47">
+      <span class="beta" title="Su contenido y su aspecto pueden cambiar.">Versión beta</span>
+    </div>
+  </div>
+  <nav class="menu" aria-label="Secciones">
+    <ul class="contenedor menu__lista">
+      <li><a href="../../index.html">Portada</a></li>
+      <li><a href="../../ediciones/index.html">Ediciones</a></li>
+      <li><a href="../../informes/index.html">Informes</a></li>
+      <li><a href="../../consejo/index.html">Consejo de Ministros</a></li>
+      <li><a href="../../fuentes/index.html" aria-current="page">Fuentes</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="contenedor pagina">
+<nav class="paso"><a href="../index.html">← Todas las fuentes</a></nav>
+<p class="antetitulo">Fuente</p>
+<h1 class="titulo-pagina">Base de Datos Nacional de Subvenciones</h1>
+<p class="entradilla">La Base de Datos Nacional de Subvenciones: cada convocatoria y cada concesión de ayudas públicas que registran las administraciones.</p>
+<div class="dos-columnas">
+  <section>
+    <h2 class="rotulo">Cómo se recoge</h2>
+    <dl class="datos">
+      <dt>Dónde publica</dt>
+      <dd><a href="https://www.infosubvenciones.es/bdnstrans/GE/es/index">https://www.infosubvenciones.es/bdnstrans/GE/es/index</a></dd>
+      <dt>Cómo se descarga</dt>
+      <dd>Se consulta su API pública, día a día.</dd>
+      <dt>Qué hace el modelo de lenguaje</dt>
+      <dd>Nada. Sus datos son campos estructurados, así que todo lo que publica el boletín de esta fuente sale de reglas.</dd>
+      <dt>Con qué frecuencia publica</dt>
+      <dd>A diario.</dd>
+    </dl>
+  </section>
+  <section>
+    <h2 class="rotulo">Qué hay descargado</h2>
+    <dl class="datos">
+      <dt>Documentos</dt>
+      <dd>83, del 4 de mayo de 2026 al 1 de octubre de 2026</dd>
+      <dt>Última descarga</dt>
+      <dd>2026-10-02 05:06 UTC</dd>
+    </dl>
+    <table class="tabla">
+      <thead><tr><th>Qué se extrae</th><th class="num">Cuántos</th></tr></thead>
+      <tbody>
+        <tr><td>Concesiones</td><td class="num">27.557</td></tr>
+        <tr><td>Convocatorias</td><td class="num">7.352</td></tr>
+      </tbody>
+    </table>
+  </section>
+</div>
+
+<section class="bloque">
+  <h2 class="rotulo">Lo último que llegó</h2>
+  <table class="tabla">
+    <thead><tr><th>Fecha</th><th>Documento</th><th></th></tr></thead>
+    <tbody>
+      <tr>
+        <td class="fecha">1 de octubre de 2026</td>
+        <td><a href="https://www.subvenciones.gob.es/bdnstrans/api/concesiones/busqueda?vpd=GE&fechaDesde=01/10/2026&fechaHasta=01/10/2026">643 concesiones el 2026-10-01</a></td>
+        <td class="num"><a class="boton boton--tabla" href="concesiones-2026-10-01/index.html">Ver tabla</a></td>
+      </tr>
+      <tr>
+        <td class="fecha">1 de octubre de 2026</td>
+        <td><a href="https://www.subvenciones.gob.es/bdnstrans/api/convocatorias/busqueda?vpd=GE&fechaDesde=01/10/2026&fechaHasta=01/10/2026">214 convocatorias registradas el 2026-10-01</a></td>
+        <td class="num"><a class="boton boton--tabla" href="convocatorias-2026-10-01/index.html">Ver tabla</a></td>
+      </tr>
+      <tr>
+        <td class="fecha">30 de septiembre de 2026</td>
+        <td><a href="https://www.subvenciones.gob.es/bdnstrans/api/concesiones/busqueda?vpd=GE&fechaDesde=30/09/2026&fechaHasta=30/09/2026">3835 concesiones el 2026-09-30</a></td>
+        <td class="num"><a class="boton boton--tabla" href="concesiones-2026-09-30/index.html">Ver tabla</a></td>
+      </tr>
+      <tr>
+        <td class="fecha">30 de septiembre de 2026</td>
+        <td><a href="https://www.subvenciones.gob.es/bdnstrans/api/convocatorias/busqueda?vpd=GE&fechaDesde=30/09/2026&fechaHasta=30/09/2026">315 convocatorias registradas el 2026-09-30</a></td>
+        <td class="num"><a class="boton boton--tabla" href="convocatorias-2026-09-30/index.html">Ver tabla</a></td>
+      </tr>
+      <tr>
+        <td class="fecha">29 de septiembre de 2026</td>
+        <td><a href="https://www.subvenciones.gob.es/bdnstrans/api/concesiones/busqueda?vpd=GE&fechaDesde=29/09/2026&fechaHasta=29/09/2026">122 concesiones el 2026-09-29</a></td>
+        <td class="num"><a class="boton boton--tabla" href="concesiones-2026-09-29/index.html">Ver tabla</a></td>
+      </tr>
+      <tr>
+        <td class="fecha">29 de septiembre de 2026</td>
+        <td><a href="https://www.subvenciones.gob.es/bdnstrans/api/convocatorias/busqueda?vpd=GE&fechaDesde=29/09/2026&fechaHasta=29/09/2026">256 convocatorias registradas el 2026-09-29</a></td>
+        <td class="num"><a class="boton boton--tabla" href="convocatorias-2026-09-29/index.html">Ver tabla</a></td>
+      </tr>
+      <tr>
+        <td class="fecha">28 de septiembre de 2026</td>
+        <td><a href="https://www.subvenciones.gob.es/bdnstrans/api/concesiones/busqueda?vpd=GE&fechaDesde=28/09/2026&fechaHasta=28/09/2026">2940 concesiones el 2026-09-28</a></td>
+        <td class="num"><a class="boton boton--tabla" href="concesiones-2026-09-28/index.html">Ver tabla</a></td>
+      </tr>
+      <tr>
+        <td class="fecha">28 de septiembre de 2026</td>
+        <td><a href="https://www.subvenciones.gob.es/bdnstrans/api/convocatorias/busqueda?vpd=GE&fechaDesde=28/09/2026&fechaHasta=28/09/2026">295 convocatorias registradas el 2026-09-28</a></td>
+        <td class="num"><a class="boton boton--tabla" href="convocatorias-2026-09-28/index.html">Ver tabla</a></td>
+      </tr>
+      <tr>
+        <td class="fecha">27 de septiembre de 2026</td>
+        <td><a href="https://www.subvenciones.gob.es/bdnstrans/api/concesiones/busqueda?vpd=GE&fechaDesde=27/09/2026&fechaHasta=27/09/2026">1 concesiones el 2026-09-27</a></td>
+        <td class="num"><a class="boton boton--tabla" href="concesiones-2026-09-27/index.html">Ver tabla</a></td>
+      </tr>
+      <tr>
+        <td class="fecha">27 de septiembre de 2026</td>
+        <td><a href="https://www.subvenciones.gob.es/bdnstrans/api/convocatorias/busqueda?vpd=GE&fechaDesde=27/09/2026&fechaHasta=27/09/2026">2 convocatorias registradas el 2026-09-27</a></td>
+        <td class="num"><a class="boton boton--tabla" href="convocatorias-2026-09-27/index.html">Ver tabla</a></td>
+      </tr>
+      <tr>
+        <td class="fecha">26 de septiembre de 2026</td>
+        <td><a href="https://www.subvenciones.gob.es/bdnstrans/api/concesiones/busqueda?vpd=GE&fechaDesde=26/09/2026&fechaHasta=26/09/2026">1 concesiones el 2026-09-26</a></td>
+        <td class="num"><a class="boton boton--tabla" href="concesiones-2026-09-26/index.html">Ver tabla</a></td>
+      </tr>
+      <tr>
+        <td class="fecha">26 de septiembre de 2026</td>
+        <td><a href="https://www.subvenciones.gob.es/bdnstrans/api/convocatorias/busqueda?vpd=GE&fechaDesde=26/09/2026&fechaHasta=26/09/2026">4 convocatorias registradas el 2026-09-26</a></td>
+        <td class="num"><a class="boton boton--tabla" href="convocatorias-2026-09-26/index.html">Ver tabla</a></td>
+      </tr>
+      <tr>
+        <td class="fecha">25 de septiembre de 2026</td>
+        <td><a href="https://www.subvenciones.gob.es/bdnstrans/api/concesiones/busqueda?vpd=GE&fechaDesde=25/09/2026&fechaHasta=25/09/2026">415 concesiones el 2026-09-25</a></td>
+        <td class="num"><a class="boton boton--tabla" href="concesiones-2026-09-25/index.html">Ver tabla</a></td>
+      </tr>
+      <tr>
+        <td class="fecha">25 de septiembre de 2026</td>
+        <td><a href="https://www.subvenciones.gob.es/bdnstrans/api/convocatorias/busqueda?vpd=GE&fechaDesde=25/09/2026&fechaHasta=25/09/2026">215 convocatorias registradas el 2026-09-25</a></td>
+        <td class="num"><a class="boton boton--tabla" href="convocatorias-2026-09-25/index.html">Ver tabla</a></td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<section class="bloque">
+  <details class="notas">
+    <summary>Notas técnicas: las rarezas de esta fuente</summary>
+    <div class="notas__texto"><p>La única fuente con API. Casi todo lo de aquí abajo está medido en el repo hermano
+<code>subvenciones-bdns-pipeline</code>, que lleva ingeridas 648.719 convocatorias desde 2010; lo que se
+volvió a comprobar contra el día 21 de agosto de 2026 se dice al lado.</p>
+<ul>
+<li>El servicio vive en dos dominios que sirven lo mismo, <code>subvenciones.gob.es</code> e
+  <code>infosubvenciones.es</code>. El segundo es el espejo del primero y se usa cuando el primero no
+  contesta.</li>
+<li><strong>Toda petición necesita <code>vpd</code></strong> (el portal virtual, <code>GE</code>). Sin él la respuesta viene vacía.</li>
+<li><strong><code>fechaHasta</code> es inclusiva en las dos búsquedas</strong>, así que un día se pide con las dos fechas
+  iguales. Durante un tiempo aquí ponía que en concesiones era <em>exclusiva</em>; <strong>es falso</strong>, y se
+  comprobó el 27 de agosto de 2026 contra la API real: <code>25/08→25/08</code> da 543, <code>26/08→26/08</code> da
+  198 y <code>25/08→26/08</code> da 741, que es la suma. Si fuera exclusiva, <code>26/08→26/08</code> habría dado 0.
+  Las fechas viajan en <code>dd/mm/YYYY</code>.</li>
+<li><strong>La búsqueda no trae el presupuesto.</strong> Devuelve título, órgano y poco más, así que el
+  importe —que es el umbral de la sección— obliga a pedir el detalle de cada convocatoria:
+  <code>convocatorias?numConv=&lt;número&gt;</code>. Son unas 130-175 al día (129, 161, 173, 141 y 135 en la
+  semana del 17 al 21 de agosto de 2026), o sea un par de minutos por día ingerido.</li>
+<li><strong>BDNS retira registros.</strong> El detalle de una convocatoria dada de baja contesta <strong>204 con el
+  cuerpo vacío</strong>. Es una baja, no un fallo: la convocatoria se queda con lo que dijo la
+  búsqueda y el día sigue.</li>
+<li><strong><code>urlBasesReguladoras</code> lo rellena a mano quien publica</strong>, y hay quien pega ahí la ruta de su
+  propio disco: el 21 de agosto de 2026 aparece
+  <code>file:///C:/Users/u103741/Downloads/8804-1.pdf</code>. Solo se publica lo que empieza por <code>http</code>.</li>
+<li><strong>Y aun empezando por <code>http</code>, 58 de las 19.735 URL publicables llevan un espacio dentro.</strong> Es
+  un pliegue de línea, el mismo accidente que parte las palabras de Moncloa y las del iCalendar
+  de AIReF: cae a mitad de un parámetro —<code>...verAnuncioAction.do?idAnuBlo b=408168</code>— o de un
+  nombre de fichero —<code>.../2008- 08-22.pdf</code>—. Una URL no puede llevar espacios, así que el
+  espacio se <strong>quita</strong>, y se quita también al renderizar, porque lo extraído antes de esto
+  sigue guardado con el espacio dentro. Codificarlo como <code>%20</code> <strong>no</strong> vale, y no da un error
+  que se note: la URL de las bases del Cabildo de Gran Canaria contesta <code>200 application/pdf</code>
+  con el espacio quitado y <code>200 text/html</code> con <code>%20</code> —una página de error con un 200, como la
+  de PLACSP—. Un enlace bien formado y muerto es peor que uno roto a la vista.</li>
+<li><strong>Alguna URL válida lleva paréntesis</strong> —<code>.../eli/es-ib/o/2021/03/05/(1)/dof/spa/html</code>, del
+  BOIB—. La URL está bien; lo que no la aguanta es la sintaxis <code>[texto](url)</code> de Markdown, que
+  cierra el enlace en el primer paréntesis. Se codifica al renderizar, no al extraer: el dato
+  guardado es el que dio la fuente.</li>
+<li><strong>Y cuando es una URL de verdad, apunta a las bases reguladoras, que son otro documento y de
+  otro año</strong> —un edicto de 2016 para una convocatoria de 2026—. Por eso el enlace se etiqueta
+  por lo que es y el número de la convocatoria va aparte: rotularlo «925948» haría creer que
+  lleva a su ficha.</li>
+<li><strong>La ficha pública no se puede construir.</strong> <code>infosubvenciones.es</code> es una aplicación de una
+  sola página: <code>/bdnstrans/GE/es/convocatoria/925948</code> y <code>/bdnstrans/GE/es/esto-no-existe/999</code>
+  devuelven <strong>los mismos 1.167 bytes</strong> con un 200. Un enlace inventado no se puede ni
+  comprobar, así que no se inventa —la misma regla que con los slugs de Moncloa—.</li>
+<li><strong>Los anuncios llegan más tarde que el registro.</strong> <code>anuncios</code> trae el extracto publicado en
+  el diario oficial, y de las 135 convocatorias del 21 de agosto <strong>ninguna</strong> lo tenía. Por eso
+  el cuerpo del ítem está casi siempre vacío y esta fuente no da de qué hacer un resumen.</li>
+<li><strong>BDNS registra convocatorias ya resueltas</strong>: el 21 de agosto llegaron varias con el plazo
+  cerrado en junio. El campo <code>abierto</code> dice si todavía se puede solicitar, y el plazo solo se
+  publica cuando lo dice.</li>
+<li>Los ámbitos (<code>nivel1</code>) son <code>LOCAL</code>, <code>AUTONOMICA</code>, <code>ESTADO</code> y <code>OTROS</code>. Casi todo es local: 98
+  de 135 aquel día, y una sola del Estado.</li>
+<li>El presupuesto llega como número JSON y <strong>se convierte a céntimos desde su texto</strong>
+  (<code>Decimal(str(x))</code>), no desde el <code>float</code>.</li>
+</ul>
+<p><em>Las concesiones</em> (<code>concesiones/busqueda</code>) son la otra mitad del dinero: lo repartido, no lo
+ofrecido. Salen de la misma fuente y del mismo día, con el <code>external_id</code> prefijado
+(<code>concesiones-YYYY-MM-DD</code> frente a <code>convocatorias-YYYY-MM-DD</code>), y <code>extract/bdns.py</code> reparte
+por la forma del crudo, no por un parámetro: el documento dice de qué es.</p>
+<ul>
+<li><strong>No hay detalle que pedir.</strong> La búsqueda ya trae beneficiario, importe, instrumento,
+  convocatoria y los tres niveles de órgano, así que un día son 1-11 peticiones frente a las
+  ~150 que cuesta uno de convocatorias.</li>
+<li><strong>El filtro es por <code>fechaConcesion</code>, no por la fecha de alta</strong>, y las dos no coinciden: de
+  las 543 concesiones del 25 de agosto de 2026, 380 se dieron de alta ese día y 163 al
+  siguiente. La cola tardía existe pero es corta —en el 1 de julio, 11 de las primeras 1.000
+  se registraron días o semanas después—, así que la edición publica lo concedido la víspera
+  y <strong>se pierde ese ~1%</strong>. Se dice y no se disimula.</li>
+<li><strong>El volumen va a saltos</strong>: 543 concesiones el 25 de agosto de 2026, 198 el 26 y <strong>10.256</strong>
+  el 1 de julio, que es día de pago masivo de ayudas agrarias.</li>
+<li><strong>De una en una son diminutas</strong>: mediana de ~1.500 €, y en el día de 10.256 concesiones hubo
+  <strong>una sola</strong> por encima de 1 M€. Por eso su sección va al revés que las demás —agregado
+  primero, lista al final— y su umbral es 100.000 €, no 1 M€.</li>
+<li><strong>El NIF viene enmascarado cuando el beneficiario es una persona física</strong>
+  (<code>***8043** ALEJANDRO MATEOS ROMERO</code>) y completo cuando es una entidad (<code>B31083199
+  CONSTRUCCIONES MARIEZCURRENA SL</code>). Es la marca que pone la propia fuente, y con ella la
+  edición cuenta lo que se repartió sin publicar el nombre de un particular: el 25 de agosto
+  fueron 280 de las 543 del día. Un test comprueba que ese nombre no llega ni a la edición ni
+  al parte.</li>
+</ul></div>
+  </details>
+</section>
+</main>
+
+<footer class="pie">
+  <div class="contenedor pie__dentro">
+    <div>
+      <p class="pie__marca">Boletín fiscal</p>
+      <p>Cada mañana, lo que publicaron el día anterior el Consejo de Ministros, la AIReF, la
+         AEAT, la IGAE, Fedea, la BDNS y la Plataforma de Contratación. Las cifras salen de
+         reglas; el modelo de lenguaje solo redacta resúmenes, y cada cifra que escribe se
+         contrasta con el documento. <a href="../../fuentes/index.html">De dónde sale cada dato</a>.</p>
+      <p class="pie__botones"><a class="boton boton--claro" href="mailto:newsletter.fiscal@gmail.com?subject=Alta%20en%20el%20bolet%C3%ADn%20fiscal">Recibirlo por correo</a>
+         <a class="pie__baja" href="mailto:newsletter.fiscal@gmail.com?subject=Baja%20del%20bolet%C3%ADn%20fiscal">Darse de baja</a></p>
+    </div>
+    <div>
+      <p class="pie__rotulo">Fuentes</p>
+      <ul class="pie__lista">
+        <li><a href="https://www.infosubvenciones.es/bdnstrans/GE/es/index">Base de Datos Nacional de Subvenciones</a></li>
+        <li><a href="https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/Paginas/Publicaciones.aspx">Contabilidad nacional de las Administraciones públicas (IGAE)</a></li>
+        <li><a href="https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadPublica/CPE/EjecucionPresupuestaria/Paginas/imejecucionpresupuesto.aspx">Ejecución presupuestaria del Estado (IGAE)</a></li>
+        <li><a href="https://www.airef.es/es/datalab/seguimiento-del-objetivo-de-estabilidad/">Fichas de seguimiento del objetivo de estabilidad (AIReF)</a></li>
+        <li><a href="https://sede.agenciatributaria.gob.es/Sede/datosabiertos/catalogo/hacienda/Informe_mensual_de_Recaudacion_Tributaria.shtml">Informe mensual de recaudación tributaria (AEAT)</a></li>
+        <li><a href="https://contrataciondelestado.es/wps/portal/plataforma">Plataforma de Contratación del Sector Público</a></li>
+        <li><a href="https://documentos.fedea.net/">Publicaciones de Fedea</a></li>
+        <li><a href="https://www.airef.es/es/publicaciones/">Publicaciones de la AIReF</a></li>
+        <li><a href="https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/index.aspx">Referencias del Consejo de Ministros</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
